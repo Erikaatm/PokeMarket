@@ -61,6 +61,11 @@ class Card extends Model
         return $this->belongsToMany(Tag::class, 'card_tag');
     }
 
+    /**
+     * Relación muchos a muchos con los usuarios que tienen esta carta como favorita.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
     public function favoritedBy()
     {
         return $this->belongsToMany(User::class, 'favorites');

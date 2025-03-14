@@ -4,12 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Card;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Response;
 
 class FavoriteController extends Controller
 {
     public function addToFavorites($cardId)
     {
+        // Con /** @var User $user */, le decimos explícitamente que $user es un User,
+        // lo que elimina el error en Visual Studio Code.
+        /** @var User $user */
         $user = Auth::user();
 
         if (!$user) {
@@ -33,6 +38,7 @@ class FavoriteController extends Controller
 
     public function removeFromFavorites($cardId)
     {
+        /** @var User $user */
         $user = Auth::user();
 
         if (!$user) {
@@ -50,6 +56,7 @@ class FavoriteController extends Controller
 
     public function listFavorites()
     {
+        /** @var User $user */
         $user = Auth::user();
 
         if (!$user) {
