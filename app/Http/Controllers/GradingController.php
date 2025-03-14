@@ -8,22 +8,35 @@ use Illuminate\Support\Facades\Auth;
 
 class GradingController extends Controller
 {
+    // Solicitar gradeo para una carta
     public function requestGrading(Request $request)
     {
+        // Validar los datos que nos entran
+        $validated = $request->validate([
+            'card_id' => 'required|exists:cards,id', // Asegúrate de que el card_id exista
+            'price'   => 'required|numeric|min:0',   // Asegúrate de que price sea un número válido
+        ]);
+
+        // Crear la solicitud de gradeo
         $grading = Grading::create([
             'user_id' => Auth::id(),
-            'card_id' => $request->card_id,
-            'price' => $request->price,
-            'status' => 'pending'
+            'card_id' => $validated['card_id'],
+            'price'   => $validated['price'],
+            'status'  => 'pending',
         ]);
 
         return response()->json(['message' => 'Solicitud de gradeo enviada.', 'grading' => $grading]);
     }
 
+    // Aprobar un gradeo
     public function approve($id)
     {
+        // Buscar el gradeo por su ID
         $grading = Grading::findOrFail($id);
+        
+        // Actualizar el estado a 'approved'
         $grading->update(['status' => 'approved']);
+
         return response()->json(['message' => 'Gradeo aprobado.']);
     }
 }
