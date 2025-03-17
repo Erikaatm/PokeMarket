@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 class CardController extends Controller
 {
     // Crear nueva carta
-    public function store(Request $request)
+    public function addCard(Request $request)
     {
         $card = Card::create([
             'user_id' => Auth::id(),
@@ -27,19 +27,19 @@ class CardController extends Controller
     }
 
     // Ver todas las cartas disponibles
-    public function index()
+    public function listCards()
     {
         return response()->json(Card::with('owner')->get());
     }
 
     // Ver carta específica
-    public function show($id)
+    public function showCardsID($id)
     {
         return response()->json(Card::with('owner')->findOrFail($id));
     }
 
     // Actualizar carta específica
-    public function update(Request $request, $id)
+    public function updateCard(Request $request, $id)
     {
         $card = Card::findOrFail($id);
 
@@ -63,7 +63,7 @@ class CardController extends Controller
     }
 
     // Eliminar carta específica
-    public function destroy($id)
+    public function destroyCard($id)
     {
         $card = Card::findOrFail($id);
 

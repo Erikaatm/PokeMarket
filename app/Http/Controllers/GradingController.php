@@ -29,7 +29,7 @@ class GradingController extends Controller
     }
 
     // Aprobar un gradeo
-    public function approve($id)
+    public function approveGrading($id)
     {
         // Buscar el gradeo por su ID
         $grading = Grading::findOrFail($id);

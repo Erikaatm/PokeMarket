@@ -10,11 +10,11 @@ use App\Http\Controllers\FavoriteController;
 
 // Controlador de card
 Route::apiResource('cards', CardController::class)->names([
-    'index'   => 'cards.index',   // Ver cartas disponibles
-    'store'   => 'cards.store',   // Crear nueva carta
-    'show'    => 'cards.show',    // Ver carta específica
-    'update'  => 'cards.update',  // Actualizar carta (si fuera necesario)
-    'destroy' => 'cards.destroy', // Eliminar carta (si fuera necesario)
+    'listCards'   => 'cards.listCards',   // Ver cartas disponibles
+    'addCard'   => 'cards.addCard',   // Crear nueva carta
+    'showCardsID'    => 'cards.showCardsID',    // Ver carta específica
+    'updateCard'  => 'cards.updateCard',  // Actualizar carta (si fuera necesario)
+    'destroyCard' => 'cards.destroyCard', // Eliminar carta (si fuera necesario)
 ]);
 
 // Controlador de favorite
@@ -28,8 +28,40 @@ Route::apiResource('favorites', FavoriteController::class)->names([
 // Controlador de grading
 Route::apiResource('gradings', GradingController::class)->names([
     'requestGrading'   => 'gradings.requestGrading',  // Solicitar gradeo de una carta
-    'approve'  => 'gradings.approve',         // Aprobar gradeo de una carta
+    'approveGrading'  => 'gradings.approveGrading',         // Aprobar gradeo de una carta
 ]);
+
+// Controlador de mensaje
+Route::apiResource('messages', MessageController::class)->names([
+    'newMessage'        => 'messages.newMessage',        // Enviar un nuevo mensaje
+    'getMessages'  => 'messages.getMessages',  // Obtener los mensajes de un usuario
+]);
+
+// Controlador de Tags
+Route::apiResource('tags', TagController::class)->names([
+    'listTags'   => 'tags.listTags',    // Obtener todas las etiquetas
+    'addTag'   => 'tags.addTag',    // Crear una nueva etiqueta
+    'showTagsID'    => 'tags.showTagsID',     // Obtener una etiqueta por ID
+    'updateTag'  => 'tags.updateTag',   // Actualizar una etiqueta
+    'destroyTag' => 'tags.destroyTag',  // Eliminar una etiqueta
+]);
+
+// Controlador de Trades
+Route::apiResource('trades', TradeController::class)->names([
+    'addTrade'     => 'trades.addTrade',     // Crear una solicitud de intercambio
+    'acceptTrade'  => 'trades.acceptTrade',  // Aceptar un intercambio
+    'rejectTrade'  => 'trades.rejectTrade',  // Rechazar un intercambio
+]);
+
+// Controlador de Users
+Route::apiResource('users', UserController::class)->names([
+    'listUsers'   => 'users.listUsers',    // Listar todos los usuarios (solo para administradores)
+    'showUsersID'    => 'users.showUsersID',  // Ver un usuario por ID
+    'updateUser'  => 'users.updateUser',   // Actualizar perfil
+    'destroyUser' => 'users.destroyUser',  // Eliminar cuenta
+]);
+
+
 
 
 

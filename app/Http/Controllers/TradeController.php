@@ -8,28 +8,56 @@ use Illuminate\Support\Facades\Auth;
 
 class TradeController extends Controller
 {
-    public function store(Request $request)
+    /**
+     * Crear una solicitud de intercambio.
+     */
+    public function addTrade(Request $request)
     {
-        $trade = Trade::create([
-            'from_user_id' => Auth::id(),
-            'to_user_id' => $request->to_user_id,
-            'status' => 'pending'
+        $validated = $request->validate([
+            'to_user_id' => 'required|exists:users,id|not_in:' . Auth::id(), // No puedes enviarte intercambios a ti mismo
         ]);
 
-        return response()->json(['message' => 'Intercambio enviado.', 'trade' => $trade]);
+        $trade = Trade::create([
+            'from_user_id' => Auth::id(),
+            'to_user_id'   => $validated['to_user_id'],
+            'status'       => 'pending',
+        ]);
+
+        return response()->json([
+            'message' => 'Intercambio enviado con éxito.',
+            'trade'   => $trade
+        ], 201);
     }
 
-    public function accept($id)
+    /**
+     * Aceptar un intercambio.
+     */
+    public function acceptTrade($id)
     {
         $trade = Trade::findOrFail($id);
+
+        if ($trade->to_user_id !== Auth::id()) {
+            return response()->json(['message' => 'No autorizado para aceptar este intercambio.'], 403);
+        }
+
         $trade->update(['status' => 'accepted']);
-        return response()->json(['message' => 'Intercambio aceptado.']);
+
+        return response()->json(['message' => 'Intercambio aceptado con éxito.']);
     }
 
-    public function reject($id)
+    /**
+     * Rechazar un intercambio.
+     */
+    public function rejectTrade($id)
     {
         $trade = Trade::findOrFail($id);
+
+        if ($trade->to_user_id !== Auth::id()) {
+            return response()->json(['message' => 'No autorizado para rechazar este intercambio.'], 403);
+        }
+
         $trade->update(['status' => 'rejected']);
-        return response()->json(['message' => 'Intercambio rechazado.']);
+
+        return response()->json(['message' => 'Intercambio rechazado con éxito.']);
     }
 }
