@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -12,7 +11,7 @@ class UserController extends Controller
     /**
      * Listar todos los usuarios (Solo para administradores).
      */
-    public function listUsers()
+    public function index()
     {
         return response()->json(User::all());
     }
@@ -20,7 +19,7 @@ class UserController extends Controller
     /**
      * Obtener el perfil de un usuario por ID.
      */
-    public function showUsersID($id)
+    public function show($id)
     {
         $user = User::findOrFail($id);
         return response()->json($user);
@@ -29,7 +28,7 @@ class UserController extends Controller
     /**
      * Actualizar el perfil del usuario autenticado.
      */
-    public function updateUser(Request $request)
+    public function update(Request $request)
     {
         /** @var User $user */
         $user = Auth::user();
@@ -63,7 +62,7 @@ class UserController extends Controller
     /**
      * Eliminar la cuenta del usuario autenticado.
      */
-    public function destroyUser()
+    public function destroy()
     {
         /** @var User $user */
         $user = Auth::user();

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -8,8 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class CardController extends Controller
 {
-    // Crear nueva carta
-    public function addCard(Request $request)
+    // Crear nueva carta (equivalente a store en Laravel)
+    public function store(Request $request)
     {
         $card = Card::create([
             'user_id' => Auth::id(),
@@ -26,20 +25,20 @@ class CardController extends Controller
         return response()->json(['message' => 'Carta añadida.', 'card' => $card]);
     }
 
-    // Ver todas las cartas disponibles
-    public function listCards()
+    // Ver todas las cartas disponibles (equivalente a index en Laravel)
+    public function index()
     {
         return response()->json(Card::with('owner')->get());
     }
 
-    // Ver carta específica
-    public function showCardsID($id)
+    // Ver carta específica (equivalente a show en Laravel)
+    public function show($id)
     {
         return response()->json(Card::with('owner')->findOrFail($id));
     }
 
-    // Actualizar carta específica
-    public function updateCard(Request $request, $id)
+    // Actualizar carta específica (equivalente a update en Laravel)
+    public function update(Request $request, $id)
     {
         $card = Card::findOrFail($id);
 
@@ -62,8 +61,8 @@ class CardController extends Controller
         return response()->json(['message' => 'Carta actualizada.', 'card' => $card]);
     }
 
-    // Eliminar carta específica
-    public function destroyCard($id)
+    // Eliminar carta específica (equivalente a destroy en Laravel)
+    public function destroy($id)
     {
         $card = Card::findOrFail($id);
 

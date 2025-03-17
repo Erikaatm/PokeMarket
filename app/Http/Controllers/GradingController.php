@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -8,8 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class GradingController extends Controller
 {
-    // Solicitar gradeo para una carta
-    public function requestGrading(Request $request)
+    // Solicitar gradeo para una carta (equivalente a store en Laravel)
+    public function store(Request $request)
     {
         // Validar los datos que nos entran
         $validated = $request->validate([
@@ -28,8 +27,8 @@ class GradingController extends Controller
         return response()->json(['message' => 'Solicitud de gradeo enviada.', 'grading' => $grading]);
     }
 
-    // Aprobar un gradeo
-    public function approveGrading($id)
+    // Aprobar un gradeo (equivalente a update en Laravel)
+    public function update(Request $request, $id)
     {
         // Buscar el gradeo por su ID
         $grading = Grading::findOrFail($id);

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -10,7 +9,7 @@ class TagController extends Controller
     /**
      * Obtener todas las etiquetas.
      */
-    public function listTags()
+    public function index()
     {
         return response()->json(Tag::all());
     }
@@ -18,7 +17,7 @@ class TagController extends Controller
     /**
      * Crear una nueva etiqueta.
      */
-    public function addTag(Request $request)
+    public function store(Request $request)
     {
         $validated = $request->validate([
             'name' => 'required|string|unique:tags,name|max:255',
@@ -32,7 +31,7 @@ class TagController extends Controller
     /**
      * Obtener una etiqueta específica por ID.
      */
-    public function showTagsID($id)
+    public function show($id)
     {
         $tag = Tag::findOrFail($id);
 
@@ -42,7 +41,7 @@ class TagController extends Controller
     /**
      * Actualizar una etiqueta existente.
      */
-    public function updateTag(Request $request, $id)
+    public function update(Request $request, $id)
     {
         $tag = Tag::findOrFail($id);
 
@@ -58,7 +57,7 @@ class TagController extends Controller
     /**
      * Eliminar una etiqueta.
      */
-    public function destroyTag($id)
+    public function destroy($id)
     {
         $tag = Tag::findOrFail($id);
         $tag->delete();

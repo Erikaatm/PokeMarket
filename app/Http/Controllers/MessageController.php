@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -14,7 +13,7 @@ class MessageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function newMessage(Request $request)
+    public function store(Request $request)
     {
         /** @var User $user */
         $user = Auth::user();
@@ -49,7 +48,7 @@ class MessageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\JsonResponse
      */
-    public function getMessages($userId, Request $request)
+    public function index($userId, Request $request)
     {
         /** @var User $user */
         $user = Auth::user();

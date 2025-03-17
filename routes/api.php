@@ -1,68 +1,64 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\CardController;
+use App\Http\Controllers\FavoriteController;
+use App\Http\Controllers\GradingController;
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TradeController;
-use App\Http\Controllers\MessageController;
-use App\Http\Controllers\GradingController;
-use App\Http\Controllers\FavoriteController;
+use App\Http\Controllers\UserController;
 
 // Controlador de card
 Route::apiResource('cards', CardController::class)->names([
-    'listCards'   => 'cards.listCards',   // Ver cartas disponibles
-    'addCard'   => 'cards.addCard',   // Crear nueva carta
-    'showCardsID'    => 'cards.showCardsID',    // Ver carta específica
-    'updateCard'  => 'cards.updateCard',  // Actualizar carta (si fuera necesario)
-    'destroyCard' => 'cards.destroyCard', // Eliminar carta (si fuera necesario)
+    'index'   => 'cards.index',   // Ver cartas disponibles
+    'store'   => 'cards.store',   // Crear nueva carta
+    'show'    => 'cards.show',    // Ver carta específica
+    'update'  => 'cards.update',  // Actualizar carta (si fuera necesario)
+    'destroy' => 'cards.destroy', // Eliminar carta (si fuera necesario)
 ]);
+
 
 // Controlador de favorite
 Route::apiResource('favorites', FavoriteController::class)->names([
-    'listFavorites'   => 'favorites.listFavorites',   // Obtener todas las cartas favoritas
-    'addToFavorites'   => 'favorites.addToFavorites',      // Agregar carta a favoritos
-    'isFavorite'    => 'favorites.isFavorite',     // Verificar si una carta está en favoritos
-    'removeFromFavorites' => 'favorites.removeFromFavorites',   // Eliminar carta de favoritos
+    'index' => 'favorites.index',   // Obtener todas las cartas favoritas
+    'store' => 'favorites.store',  // Agregar carta a favoritos
+    'show' => 'favorites.show',       // Verificar si una carta está en favoritos
+    'destroy' => 'favorites.destroy', // Eliminar carta de favoritos
 ]);
 
 // Controlador de grading
 Route::apiResource('gradings', GradingController::class)->names([
-    'requestGrading'   => 'gradings.requestGrading',  // Solicitar gradeo de una carta
-    'approveGrading'  => 'gradings.approveGrading',         // Aprobar gradeo de una carta
+    'store' => 'gradings.store',  // Solicitar gradeo de una carta
+    'update' => 'gradings.update', // Aprobar gradeo de una carta
 ]);
 
 // Controlador de mensaje
 Route::apiResource('messages', MessageController::class)->names([
-    'newMessage'        => 'messages.newMessage',        // Enviar un nuevo mensaje
-    'getMessages'  => 'messages.getMessages',  // Obtener los mensajes de un usuario
+    'store' => 'messages.store',      // Enviar un nuevo mensaje
+    'index' => 'messages.index',     // Obtener los mensajes de un usuario
 ]);
 
 // Controlador de Tags
 Route::apiResource('tags', TagController::class)->names([
-    'listTags'   => 'tags.listTags',    // Obtener todas las etiquetas
-    'addTag'   => 'tags.addTag',    // Crear una nueva etiqueta
-    'showTagsID'    => 'tags.showTagsID',     // Obtener una etiqueta por ID
-    'updateTag'  => 'tags.updateTag',   // Actualizar una etiqueta
-    'destroyTag' => 'tags.destroyTag',  // Eliminar una etiqueta
+    'index' => 'tags.index',    // Obtener todas las etiquetas
+    'store' => 'tags.store',      // Crear una nueva etiqueta
+    'show'  => 'tags.show',  // Obtener una etiqueta por ID
+    'update' => 'tags.update',  // Actualizar una etiqueta
+    'destroy' => 'tags.destroy', // Eliminar una etiqueta
 ]);
 
 // Controlador de Trades
 Route::apiResource('trades', TradeController::class)->names([
-    'addTrade'     => 'trades.addTrade',     // Crear una solicitud de intercambio
-    'acceptTrade'  => 'trades.acceptTrade',  // Aceptar un intercambio
-    'rejectTrade'  => 'trades.rejectTrade',  // Rechazar un intercambio
+    'store' => 'trades.store',    // Crear una solicitud de intercambio
+    'update' => 'trades.update', // Aceptar un intercambio
+    'destroy' => 'trades.destroy', // Rechazar un intercambio
 ]);
 
 // Controlador de Users
 Route::apiResource('users', UserController::class)->names([
-    'listUsers'   => 'users.listUsers',    // Listar todos los usuarios (solo para administradores)
-    'showUsersID'    => 'users.showUsersID',  // Ver un usuario por ID
-    'updateUser'  => 'users.updateUser',   // Actualizar perfil
-    'destroyUser' => 'users.destroyUser',  // Eliminar cuenta
+    'index' => 'users.index',     // Listar todos los usuarios (solo para administradores)
+    'show'  => 'users.show',   // Ver un usuario por ID
+    'update' => 'users.update',   // Actualizar perfil
+    'destroy' => 'users.destroy', // Eliminar cuenta
 ]);
-
-
-
-
-
-

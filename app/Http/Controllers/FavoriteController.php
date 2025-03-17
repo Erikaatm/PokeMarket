@@ -6,12 +6,11 @@ use Illuminate\Http\Request;
 use App\Models\Card;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Http\Response;
 
 class FavoriteController extends Controller
 {
-    // Agregar una carta a favoritos
-    public function addToFavorites($cardId)
+    // Agregar una carta a favoritos (equivalente a store en Laravel)
+    public function store($cardId)
     {
         /** @var User $user */
         $user = Auth::user();
@@ -36,8 +35,8 @@ class FavoriteController extends Controller
         return response()->json(['message' => 'Carta añadida a favoritos.']);
     }
 
-    // Eliminar una carta de favoritos
-    public function removeFromFavorites($cardId)
+    // Eliminar una carta de favoritos (equivalente a destroy en Laravel)
+    public function destroy($cardId)
     {
         /** @var User $user */
         $user = Auth::user();
@@ -56,8 +55,8 @@ class FavoriteController extends Controller
         return response()->json(['message' => 'Carta eliminada de favoritos.']);
     }
 
-    // Obtener todas las cartas favoritas del usuario con paginación
-    public function listFavorites(Request $request)
+    // Obtener todas las cartas favoritas del usuario con paginación (equivalente a index en Laravel)
+    public function index(Request $request)
     {
         /** @var User $user */
         $user = Auth::user();
@@ -72,8 +71,8 @@ class FavoriteController extends Controller
         return response()->json($favorites);
     }
 
-    // Método para verificar si una carta está en favoritos
-    public function isFavorite($cardId)
+    // Verificar si una carta está en favoritos (equivalente a show en Laravel)
+    public function show($cardId)
     {
         /** @var User $user */
         $user = Auth::user();

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -11,7 +10,7 @@ class TradeController extends Controller
     /**
      * Crear una solicitud de intercambio.
      */
-    public function addTrade(Request $request)
+    public function store(Request $request)
     {
         $validated = $request->validate([
             'to_user_id' => 'required|exists:users,id|not_in:' . Auth::id(), // No puedes enviarte intercambios a ti mismo
@@ -32,7 +31,7 @@ class TradeController extends Controller
     /**
      * Aceptar un intercambio.
      */
-    public function acceptTrade($id)
+    public function accept($id)
     {
         $trade = Trade::findOrFail($id);
 
@@ -48,7 +47,7 @@ class TradeController extends Controller
     /**
      * Rechazar un intercambio.
      */
-    public function rejectTrade($id)
+    public function reject($id)
     {
         $trade = Trade::findOrFail($id);
 
