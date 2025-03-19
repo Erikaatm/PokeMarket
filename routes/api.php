@@ -8,6 +8,8 @@ use App\Http\Controllers\MessageController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TradeController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AuthController;
+
 
 // Controlador de card
 Route::apiResource('cards', CardController::class)->names([
@@ -62,3 +64,16 @@ Route::apiResource('users', UserController::class)->names([
     'update' => 'users.update',   // Actualizar perfil
     'destroy' => 'users.destroy', // Eliminar cuenta
 ]);
+
+// Autenticación
+
+// Login
+Route::post('/login', [AuthController::class, 'login'])->name('auth.login');
+
+// Register
+Route::post('/register', [AuthController::class, 'register'])->name('auth.register');
+
+// Logout, solo se hace si el usuario esta autenticado
+Route::middleware(['auth:sanctum'])->group(function () {
+    Route::post('/logout', [AuthController::class, 'logout'])->name('auth.logout');
+});

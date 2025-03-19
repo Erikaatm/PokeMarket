@@ -10,6 +10,8 @@ use App\Models\Card;
 
 
 /**
+ * 
+ *
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Message> $messagesReceived
  * @property-read int|null $messages_received_count
  * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Message> $messagesSent
@@ -36,6 +38,21 @@ use App\Models\Card;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|User whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|User whereUsername($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|User favorites() // Agrega esta línea
+ * @property int $id
+ * @property string $email
+ * @property string|null $email_verified_at
+ * @property string $password
+ * @property string|null $phone_num
+ * @property string|null $address
+ * @property string|null $remember_token
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string $username
+ * @property string $role
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Card> $cards
+ * @property-read int|null $cards_count
+ * @property-read int|null $favorites_count
+ * @property-read int|null $trades_sent_count
  * @mixin \Eloquent
  */
 class User extends Authenticatable
