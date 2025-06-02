@@ -1,0 +1,1393 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\PegatinasDeEnergia.png",
+      "PackagePath": "staticwebassets\\images\\151\\PegatinasDeEnergia.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\abra.png",
+      "PackagePath": "staticwebassets\\images\\151\\abra.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\aerodactyl.png",
+      "PackagePath": "staticwebassets\\images\\151\\aerodactyl.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\agarradorMecanico.png",
+      "PackagePath": "staticwebassets\\images\\151\\agarradorMecanico.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\alakazamEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\alakazamEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ambarViejo.png",
+      "PackagePath": "staticwebassets\\images\\151\\ambarViejo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\arbokEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\arbokEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\arcanine.png",
+      "PackagePath": "staticwebassets\\images\\151\\arcanine.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\articuno.png",
+      "PackagePath": "staticwebassets\\images\\151\\articuno.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ayudaDeDalia.png",
+      "PackagePath": "staticwebassets\\images\\151\\ayudaDeDalia.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\beedril.png",
+      "PackagePath": "staticwebassets\\images\\151\\beedril.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\bellsprout.png",
+      "PackagePath": "staticwebassets\\images\\151\\bellsprout.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\blastoiseEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\blastoiseEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\bulbasaur.png",
+      "PackagePath": "staticwebassets\\images\\151\\bulbasaur.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\butterfree.png",
+      "PackagePath": "staticwebassets\\images\\151\\butterfree.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\caminoDeBicis.png",
+      "PackagePath": "staticwebassets\\images\\151\\caminoDeBicis.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\carismaDeGiovanni.png",
+      "PackagePath": "staticwebassets\\images\\151\\carismaDeGiovanni.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\caterpie.png",
+      "PackagePath": "staticwebassets\\images\\151\\caterpie.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\chansey.png",
+      "PackagePath": "staticwebassets\\images\\151\\chansey.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\charizardEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\charizardEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\charmander.png",
+      "PackagePath": "staticwebassets\\images\\151\\charmander.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\charmeleon.png",
+      "PackagePath": "staticwebassets\\images\\151\\charmeleon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\cinturonRigido.png",
+      "PackagePath": "staticwebassets\\images\\151\\cinturonRigido.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\clefable.png",
+      "PackagePath": "staticwebassets\\images\\151\\clefable.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\clefairy.png",
+      "PackagePath": "staticwebassets\\images\\151\\clefairy.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\cloyster.png",
+      "PackagePath": "staticwebassets\\images\\151\\cloyster.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\cubone.png",
+      "PackagePath": "staticwebassets\\images\\151\\cubone.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dewgong.png",
+      "PackagePath": "staticwebassets\\images\\151\\dewgong.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\diglett.png",
+      "PackagePath": "staticwebassets\\images\\151\\diglett.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ditto.png",
+      "PackagePath": "staticwebassets\\images\\151\\ditto.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dodrio.png",
+      "PackagePath": "staticwebassets\\images\\151\\dodrio.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\doduo.png",
+      "PackagePath": "staticwebassets\\images\\151\\doduo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dragonair.png",
+      "PackagePath": "staticwebassets\\images\\151\\dragonair.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dragonite.png",
+      "PackagePath": "staticwebassets\\images\\151\\dragonite.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dratini.png",
+      "PackagePath": "staticwebassets\\images\\151\\dratini.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\drowzee.png",
+      "PackagePath": "staticwebassets\\images\\151\\drowzee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\dugtrio.png",
+      "PackagePath": "staticwebassets\\images\\151\\dugtrio.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\eevee.png",
+      "PackagePath": "staticwebassets\\images\\151\\eevee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ekans.png",
+      "PackagePath": "staticwebassets\\images\\151\\ekans.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\electabuzz.png",
+      "PackagePath": "staticwebassets\\images\\151\\electabuzz.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\electrode.png",
+      "PackagePath": "staticwebassets\\images\\151\\electrode.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\exeggcute.png",
+      "PackagePath": "staticwebassets\\images\\151\\exeggcute.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\exeggutor.png",
+      "PackagePath": "staticwebassets\\images\\151\\exeggutor.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\farfetch'd.png",
+      "PackagePath": "staticwebassets\\images\\151\\farfetch'd.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fearow.png",
+      "PackagePath": "staticwebassets\\images\\151\\fearow.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\flareon.png",
+      "PackagePath": "staticwebassets\\images\\151\\flareon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fosilDomo.png",
+      "PackagePath": "staticwebassets\\images\\151\\fosilDomo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fosilHelix.png",
+      "PackagePath": "staticwebassets\\images\\151\\fosilHelix.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\bulbasaur.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\bulbasaur.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\caterpie.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\caterpie.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\charmander.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\charmander.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\charmeleon.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\charmeleon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\dragonairFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\dragonairFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\ivysaur.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\ivysaur.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\machokeFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\machokeFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\mr.mimeFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\mr.mimeFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\nidoking.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\nidoking.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\omanyteFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\omanyteFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\pikachu.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\pikachu.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\poliwhirl.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\poliwhirl.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\psyduck.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\psyduck.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\squirtle.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\squirtle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\tangelaFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\tangelaFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\venusaurEXFA.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\venusaurEXFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\fullarts\\wartortle.png",
+      "PackagePath": "staticwebassets\\images\\151\\fullarts\\wartortle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\gafasDeSeguridad.png",
+      "PackagePath": "staticwebassets\\images\\151\\gafasDeSeguridad.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\gastly.png",
+      "PackagePath": "staticwebassets\\images\\151\\gastly.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\gengar.png",
+      "PackagePath": "staticwebassets\\images\\151\\gengar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\geodude.png",
+      "PackagePath": "staticwebassets\\images\\151\\geodude.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\globoHelioGrande.png",
+      "PackagePath": "staticwebassets\\images\\151\\globoHelioGrande.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\gloom.png",
+      "PackagePath": "staticwebassets\\images\\151\\gloom.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\golbat.png",
+      "PackagePath": "staticwebassets\\images\\151\\golbat.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\goldeen.png",
+      "PackagePath": "staticwebassets\\images\\151\\goldeen.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\golduck.png",
+      "PackagePath": "staticwebassets\\images\\151\\golduck.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\golemEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\golemEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\graveler.png",
+      "PackagePath": "staticwebassets\\images\\151\\graveler.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\grimer.png",
+      "PackagePath": "staticwebassets\\images\\151\\grimer.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\growlithe.png",
+      "PackagePath": "staticwebassets\\images\\151\\growlithe.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\gyarados.png",
+      "PackagePath": "staticwebassets\\images\\151\\gyarados.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\haunter.png",
+      "PackagePath": "staticwebassets\\images\\151\\haunter.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\hitmonchan.png",
+      "PackagePath": "staticwebassets\\images\\151\\hitmonchan.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\hitmonlee.png",
+      "PackagePath": "staticwebassets\\images\\151\\hitmonlee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\horsea.png",
+      "PackagePath": "staticwebassets\\images\\151\\horsea.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\hypno.png",
+      "PackagePath": "staticwebassets\\images\\151\\hypno.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\invitacionDeErika.png",
+      "PackagePath": "staticwebassets\\images\\151\\invitacionDeErika.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ivysaur.png",
+      "PackagePath": "staticwebassets\\images\\151\\ivysaur.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\jigglypuff.png",
+      "PackagePath": "staticwebassets\\images\\151\\jigglypuff.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\jolteon.png",
+      "PackagePath": "staticwebassets\\images\\151\\jolteon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\jynxEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\jynxEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kabuto.png",
+      "PackagePath": "staticwebassets\\images\\151\\kabuto.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kabutops.png",
+      "PackagePath": "staticwebassets\\images\\151\\kabutops.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kadabra.png",
+      "PackagePath": "staticwebassets\\images\\151\\kadabra.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kakuna.png",
+      "PackagePath": "staticwebassets\\images\\151\\kakuna.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kangaskhanEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\kangaskhanEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\kingler.png",
+      "PackagePath": "staticwebassets\\images\\151\\kingler.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\koffing.png",
+      "PackagePath": "staticwebassets\\images\\151\\koffing.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\krabby.png",
+      "PackagePath": "staticwebassets\\images\\151\\krabby.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\lapras.png",
+      "PackagePath": "staticwebassets\\images\\151\\lapras.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\lickitung.png",
+      "PackagePath": "staticwebassets\\images\\151\\lickitung.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\machamp.png",
+      "PackagePath": "staticwebassets\\images\\151\\machamp.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\machoke.png",
+      "PackagePath": "staticwebassets\\images\\151\\machoke.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\machop.png",
+      "PackagePath": "staticwebassets\\images\\151\\machop.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\magikarp.png",
+      "PackagePath": "staticwebassets\\images\\151\\magikarp.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\magmar.png",
+      "PackagePath": "staticwebassets\\images\\151\\magmar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\magnemite.png",
+      "PackagePath": "staticwebassets\\images\\151\\magnemite.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\magneton.png",
+      "PackagePath": "staticwebassets\\images\\151\\magneton.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\mankey.png",
+      "PackagePath": "staticwebassets\\images\\151\\mankey.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\marowak.png",
+      "PackagePath": "staticwebassets\\images\\151\\marowak.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\meowth.png",
+      "PackagePath": "staticwebassets\\images\\151\\meowth.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\metapod.png",
+      "PackagePath": "staticwebassets\\images\\151\\metapod.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\mewEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\mewEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\mewtwo.png",
+      "PackagePath": "staticwebassets\\images\\151\\mewtwo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\moltres.png",
+      "PackagePath": "staticwebassets\\images\\151\\moltres.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\mr.mime.png",
+      "PackagePath": "staticwebassets\\images\\151\\mr.mime.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\muk.png",
+      "PackagePath": "staticwebassets\\images\\151\\muk.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidoking.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidoking.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidoqueen.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidoqueen.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidoranCA.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidoranCA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidoranCO.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidoranCO.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidorina.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidorina.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\nidorino.png",
+      "PackagePath": "staticwebassets\\images\\151\\nidorino.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ninetalesEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\ninetalesEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\oddish.png",
+      "PackagePath": "staticwebassets\\images\\151\\oddish.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\omanyte.png",
+      "PackagePath": "staticwebassets\\images\\151\\omanyte.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\omastar.png",
+      "PackagePath": "staticwebassets\\images\\151\\omastar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\onix.png",
+      "PackagePath": "staticwebassets\\images\\151\\onix.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\paras.png",
+      "PackagePath": "staticwebassets\\images\\151\\paras.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\parasect.png",
+      "PackagePath": "staticwebassets\\images\\151\\parasect.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\persian.png",
+      "PackagePath": "staticwebassets\\images\\151\\persian.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\pidgeot.png",
+      "PackagePath": "staticwebassets\\images\\151\\pidgeot.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\pidgeotto.png",
+      "PackagePath": "staticwebassets\\images\\151\\pidgeotto.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\pidgey.png",
+      "PackagePath": "staticwebassets\\images\\151\\pidgey.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\pikachu.png",
+      "PackagePath": "staticwebassets\\images\\151\\pikachu.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\pinsir.png",
+      "PackagePath": "staticwebassets\\images\\151\\pinsir.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\poliwag.png",
+      "PackagePath": "staticwebassets\\images\\151\\poliwag.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\poliwhirl.png",
+      "PackagePath": "staticwebassets\\images\\151\\poliwhirl.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\poliwrath.png",
+      "PackagePath": "staticwebassets\\images\\151\\poliwrath.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\ponyta.png",
+      "PackagePath": "staticwebassets\\images\\151\\ponyta.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\porygon.png",
+      "PackagePath": "staticwebassets\\images\\151\\porygon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\primeape.png",
+      "PackagePath": "staticwebassets\\images\\151\\primeape.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\psyduck.png",
+      "PackagePath": "staticwebassets\\images\\151\\psyduck.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\raichu.png",
+      "PackagePath": "staticwebassets\\images\\151\\raichu.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\rapidash.png",
+      "PackagePath": "staticwebassets\\images\\151\\rapidash.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\raticate.png",
+      "PackagePath": "staticwebassets\\images\\151\\raticate.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\rattata.png",
+      "PackagePath": "staticwebassets\\images\\151\\rattata.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\restos.png",
+      "PackagePath": "staticwebassets\\images\\151\\restos.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\rhydon.png",
+      "PackagePath": "staticwebassets\\images\\151\\rhydon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\rhyhorn.png",
+      "PackagePath": "staticwebassets\\images\\151\\rhyhorn.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\sandshrew.png",
+      "PackagePath": "staticwebassets\\images\\151\\sandshrew.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\sandslash.png",
+      "PackagePath": "staticwebassets\\images\\151\\sandslash.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\scyther.png",
+      "PackagePath": "staticwebassets\\images\\151\\scyther.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\seadra.png",
+      "PackagePath": "staticwebassets\\images\\151\\seadra.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\seaking.png",
+      "PackagePath": "staticwebassets\\images\\151\\seaking.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\seel.png",
+      "PackagePath": "staticwebassets\\images\\151\\seel.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\shellder.png",
+      "PackagePath": "staticwebassets\\images\\151\\shellder.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\slowbro.png",
+      "PackagePath": "staticwebassets\\images\\151\\slowbro.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\slowpoke.png",
+      "PackagePath": "staticwebassets\\images\\151\\slowpoke.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\snorlax.png",
+      "PackagePath": "staticwebassets\\images\\151\\snorlax.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\spearow.png",
+      "PackagePath": "staticwebassets\\images\\151\\spearow.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\squirtle.png",
+      "PackagePath": "staticwebassets\\images\\151\\squirtle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\starmie.png",
+      "PackagePath": "staticwebassets\\images\\151\\starmie.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\staryu.png",
+      "PackagePath": "staticwebassets\\images\\151\\staryu.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\tangela.png",
+      "PackagePath": "staticwebassets\\images\\151\\tangela.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\tauros.png",
+      "PackagePath": "staticwebassets\\images\\151\\tauros.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\tentacool.png",
+      "PackagePath": "staticwebassets\\images\\151\\tentacool.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\tentacruel.png",
+      "PackagePath": "staticwebassets\\images\\151\\tentacruel.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\transferenciaDeBill.png",
+      "PackagePath": "staticwebassets\\images\\151\\transferenciaDeBill.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\vaporeon.png",
+      "PackagePath": "staticwebassets\\images\\151\\vaporeon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\venomoth.png",
+      "PackagePath": "staticwebassets\\images\\151\\venomoth.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\venonat.png",
+      "PackagePath": "staticwebassets\\images\\151\\venonat.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\venusaurEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\venusaurEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\victreebel.png",
+      "PackagePath": "staticwebassets\\images\\151\\victreebel.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\vileplume.png",
+      "PackagePath": "staticwebassets\\images\\151\\vileplume.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\voltorb.png",
+      "PackagePath": "staticwebassets\\images\\151\\voltorb.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\vulpix.png",
+      "PackagePath": "staticwebassets\\images\\151\\vulpix.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\wartortle.png",
+      "PackagePath": "staticwebassets\\images\\151\\wartortle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\weedle.png",
+      "PackagePath": "staticwebassets\\images\\151\\weedle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\weepinbell.png",
+      "PackagePath": "staticwebassets\\images\\151\\weepinbell.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\weezing.png",
+      "PackagePath": "staticwebassets\\images\\151\\weezing.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\wigglytuffEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\wigglytuffEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\zapdosEX.png",
+      "PackagePath": "staticwebassets\\images\\151\\zapdosEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\151\\zubat.png",
+      "PackagePath": "staticwebassets\\images\\151\\zubat.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\applin.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\applin.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\aroa.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\aroa.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\aromatisse.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\aromatisse.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\bayaAnjiro.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\bayaAnjiro.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\bramaluna.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\bramaluna.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\brie.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\brie.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\bronzor.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\bronzor.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\brozong.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\brozong.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\buneary.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\buneary.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\colagrito.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\colagrito.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\cottonee.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\cottonee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\denis.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\denis.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\dipplin.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\dipplin.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\dragapultEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\dragapultEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\drakloak.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\drakloak.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\dreepy.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\dreepy.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\eevee.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\eevee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\eeveeEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\eeveeEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\entrenamientoDeKarateka.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\entrenamientoDeKarateka.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\espeon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\espeon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\espeonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\espeonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\ferropuasEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\ferropuasEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\flareon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\flareon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\flareonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\flareonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ananFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ananFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\aroaFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\aroaFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\artesSecretasSachikoFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\artesSecretasSachikoFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\cassFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\cassFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ceruledgeFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ceruledgeFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\denisFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\denisFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\dragapultFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\dragapultFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\eeveeFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\eeveeFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\erinFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\erinFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\espeonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\espeonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ferropaladinFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ferropaladinFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\flareonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\flareonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\glaceonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\glaceonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\jolteonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\jolteonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\leafeonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\leafeonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\meloFA.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\meloFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ogerponMCFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ogerponMCFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ogerponMFFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ogerponMFFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ogerponMHFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ogerponMHFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\ogerponMTFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\ogerponMTFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\sylveonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\sylveonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\umbreonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\umbreonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\fullarts\\vaporeonFAEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\fullarts\\vaporeonFAEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\glaceon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\glaceon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\glaceonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\glaceonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\houndoom.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\houndoom.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\houndour.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\houndour.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\hydrappleEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\hydrappleEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\investigacionDeProfesores.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\investigacionDeProfesores.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\jolteon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\jolteon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\jolteonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\jolteonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\larvitar.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\larvitar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\leafeon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\leafeon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\leafeonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\leafeonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\litleo.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\litleo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\lopunny.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\lopunny.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\lucarioEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\lucarioEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\lugiaEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\lugiaEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\mascaraDelOgro.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\mascaraDelOgro.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\maxicaña.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\maxicaña.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\melenaleteo.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\melenaleteo.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\milktank.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\milktank.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\mochiCadena.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\mochiCadena.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\monopatinDeRescate.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\monopatinDeRescate.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\munkidori.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\munkidori.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\nerina.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\nerina.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\ogerponMFEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\ogerponMFEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\ogerponMHEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\ogerponMHEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\ogerponMTEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\ogerponMTEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\orgeponMCEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\orgeponMCEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\pikachuEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\pikachuEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\pokochosGemelos.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\pokochosGemelos.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\pupitar.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\pupitar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\pyroar.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\pyroar.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\riolu.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\riolu.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\rotomVentilador.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\rotomVentilador.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\shaymin.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\shaymin.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\slowking.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\slowking.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\slowpoke.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\slowpoke.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\snorlaxEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\snorlaxEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\spritzee.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\spritzee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\suicune.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\suicune.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\sylveon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\sylveon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\sylveonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\sylveonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\terapagosEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\terapagosEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\tyranitarEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\tyranitarEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\umbreon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\umbreon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\umbreonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\umbreonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\ursaluna.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\ursaluna.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\vaporeon.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\vaporeon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\vaporeonEX.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\vaporeonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\prismaticEvolutions\\whimsicott.png",
+      "PackagePath": "staticwebassets\\images\\prismaticEvolutions\\whimsicott.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\DugtrioAlola.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\DugtrioAlola.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\ExeggcutorAlolaEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\ExeggcutorAlolaEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\agudezadeLem.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\agudezadeLem.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\armarouge.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\armarouge.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\atracciondeAriana.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\atracciondeAriana.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\auricularesmilagrosos.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\auricularesmilagrosos.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\azumarill.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\azumarill.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\batidoraesplendida.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\batidoraesplendida.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\bayabariba.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\bayabariba.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\ceruledge.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\ceruledge.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\ceruledgeEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\ceruledgeEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\charcadet.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\charcadet.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\crocalor.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\crocalor.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\dialga.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\dialga.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\diglettAlola.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\diglettAlola.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\eevee.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\eevee.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\elixirdragon.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\elixirdragon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\exeggcute.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\exeggcute.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\exeggutor.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\exeggutor.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\feebas.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\feebas.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\ferrosaco.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\ferrosaco.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\flamigoEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\flamigoEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\flygonEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\flygonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fuecoco.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fuecoco.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\atraccionArianaFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\atraccionArianaFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\castformFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\castformFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\ceruledgeFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\ceruledgeFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\clobbopusFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\clobbopusFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\dugtrioAlolaFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\dugtrioAlolaFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\exeggcuteFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\exeggcuteFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\latiasEXFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\latiasEXFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\latiosFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\latiosFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\leviFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\leviFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\mespritFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\mespritFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\miloticEXFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\miloticEXFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\montañagravedadFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\montañagravedadFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\phanpyFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\phanpyFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\pikachuEXFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\pikachuEXFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\slakothFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\slakothFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\fullarts\\sphealFA.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\fullarts\\sphealFA.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\grafaiai.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\grafaiai.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\kilowattrel.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\kilowattrel.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\kilowattrelEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\kilowattrelEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\klefki.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\klefki.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\koraidon.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\koraidon.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\latiasEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\latiasEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\levi.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\levi.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\marill.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\marill.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\maushold.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\maushold.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\miloticEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\miloticEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\oranguru.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\oranguru.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\palkia.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\palkia.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\passimian.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\passimian.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\phanpy.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\phanpy.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\pikachuEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\pikachuEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\shroodle.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\shroodle.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\skeledirge.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\skeledirge.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\snorlax.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\snorlax.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\surfista.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\surfista.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\sylveonEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\sylveonEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\tandemaus.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\tandemaus.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\tatsugiriEX.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\tatsugiriEX.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\trapinch.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\trapinch.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\vibraba.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\vibraba.png"
+    },
+    {
+      "Id": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\wwwroot\\images\\surgingSparks\\wattrel.png",
+      "PackagePath": "staticwebassets\\images\\surgingSparks\\wattrel.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PokeMarket.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PokeMarket.props",
+      "PackagePath": "build\\PokeMarket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PokeMarket.props",
+      "PackagePath": "buildMultiTargeting\\PokeMarket.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PokeMarket.props",
+      "PackagePath": "buildTransitive\\PokeMarket.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
