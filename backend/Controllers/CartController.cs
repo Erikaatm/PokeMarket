@@ -56,6 +56,13 @@ namespace PokeMarket.Controllers
 			var existsCartItem = await _context.CartItems
 				.FirstOrDefaultAsync(ci => ci.UserId == userId && ci.CardId == request.CardId);
 
+			// Verificamos que la carta realmente exista en la base de datos
+			var cardExists = await _context.Cards.AnyAsync(c => c.Id == request.CardId);
+			if (!cardExists)
+			{
+				return NotFound(new { message = "La carta no existe." });
+			}
+
 			if (existsCartItem != null)
 			{
 				// Si ya existe sumamos la cnatidad

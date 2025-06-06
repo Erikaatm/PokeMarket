@@ -173,6 +173,48 @@ namespace PokeMarket.Controllers
 
         }
 
+        // Método para obtener las cartas por colecciones
+        [HttpGet("collection/{collectionName}")]
+        public async Task<ActionResult> GetCardsByCollection(
+            string collectionName,
+			int page = 1,
+			string? pokemonType = null,
+			string? collection = null,
+			string? pokemonName = null,
+			string? rarity = null,
+			string? tagName = null,
+			string? orderBy = null
+			)
+        {
+            if (page < 1) page = 1;
+            int pageSize = 10;
+
+            // Obtenemos las cartas solo de la coleccion que hayamos pinchado
+            var query = _context.Cards
+                .Include(c => c.User)
+                .Include(c => c.CardTags)
+                    .ThenInclude(ct => ct.Tag)
+                .Where(c => c.Collection.ToLower() == collectionName.ToLower())
+                .AsQueryable();
+
+            // Aplicamos los filtros de las cartas
+            query = ApplyFilters(query, pokemonType, collectionName, pokemonName, rarity, tagName);
+
+            // Si no tenemos resultados
+            if (!await query.AnyAsync())
+            {
+                return NotFound(new
+                {
+                    message = "No se han encontrado cartas de esa colección o con esos filtros."
+                });
+            }
+
+            // Si tenemos resultados, aplicamos los filtros
+            var result = await ApplyPagination(query, page, pageSize, orderBy);
+
+            return Ok(result);
+        }
+
         // Método para obtener cartas a partir de su ID
         [HttpGet("{id}")] // Hacemos la petición GET a partir de un ID
         public async Task<ActionResult> GetCardByID(int id)
@@ -637,7 +679,7 @@ namespace PokeMarket.Controllers
             // Filtro por la rareza de la carta 
             if(!string.IsNullOrEmpty(rarity))
             {
-                query = query.Where(c => c.Rarity.ToLower().Contains(rarity.ToLower()));
+                query = query.Where(c => c.Rarity.ToLower() == rarity.ToLower());
             }
 
             // Filtro por nombre del tag

@@ -270,6 +270,57 @@
   },
   {
     "ContainingType": "PokeMarket.Controllers.CardController",
+    "Method": "GetCardsByCollection",
+    "RelativePath": "api/Card/collection/{collectionName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collectionName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pokemonType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pokemonName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rarity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PokeMarket.Controllers.CardController",
     "Method": "GetMyCards",
     "RelativePath": "api/Card/my-cards",
     "HttpMethod": "GET",

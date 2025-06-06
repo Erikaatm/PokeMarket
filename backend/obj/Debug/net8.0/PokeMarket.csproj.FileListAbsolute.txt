@@ -247,3 +247,4 @@ C:\Users\erikm\Documents\Instituto\2_WEM\PokeMarket\backend\obj\Debug\net8.0\Pok
 C:\Users\erikm\Documents\Instituto\2_WEM\PokeMarket\backend\obj\Debug\net8.0\PokeMarket.genruntimeconfig.cache
 C:\Users\erikm\Documents\Instituto\2_WEM\PokeMarket\backend\obj\Debug\net8.0\ref\PokeMarket.dll
 C:\Users\erikm\Documents\Instituto\2_WEM\PokeMarket\backend\bin\Debug\net8.0\PokeMarket.staticwebassets.runtime.json
+C:\Users\erikm\Documents\Instituto\2_WEM\PokeMarket\backend\obj\Debug\net8.0\PokeMarket.sourcelink.json
