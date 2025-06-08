@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|c:\\users\\erikm\\documents\\instituto\\2_wem\\pokemarket\\backend\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|solutionrelative:controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|c:\\users\\erikm\\documents\\instituto\\2_wem\\pokemarket\\backend\\models\\dtos\\cardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|solutionrelative:models\\dtos\\cardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|c:\\users\\erikm\\documents\\instituto\\2_wem\\pokemarket\\backend\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|c:\\users\\erikm\\documents\\instituto\\2_wem\\pokemarket\\backend\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|solutionrelative:controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17A3EC8D-5561-4791-B467-9F0A61D56F0A}|PokeMarket.csproj|c:\\users\\erikm\\documents\\instituto\\2_wem\\pokemarket\\backend\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,20 +98,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CardResponse.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Models\\DTOs\\CardResponse.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\CardResponse.cs",
               "ToolTip": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Models\\DTOs\\CardResponse.cs",
               "RelativeToolTip": "Models\\DTOs\\CardResponse.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T14:46:20.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T14:46:20.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CartResponse.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Models\\DTOs\\CartResponse.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\CartResponse.cs",
@@ -119,12 +118,11 @@
               "RelativeToolTip": "Models\\DTOs\\CartResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T10:40:34.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T10:40:34.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",
@@ -132,12 +130,11 @@
               "RelativeToolTip": "Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T10:27:56.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T10:27:56.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "Controllers\\CartController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAUwD8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T09:39:55.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T09:39:55.749Z"
             },
             {
               "$type": "Document",
@@ -246,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -254,8 +250,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAJcCAAAAAAAAAAAiwNwCAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:34:32.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:34:32.39Z"
             },
             {
               "$type": "Document",
@@ -319,13 +314,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CardController.cs",
               "DocumentMoniker": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Controllers\\CardController.cs",
               "RelativeDocumentMoniker": "Controllers\\CardController.cs",
               "ToolTip": "C:\\Users\\erikm\\Documents\\Instituto\\2_WEM\\PokeMarket\\backend\\Controllers\\CardController.cs",
               "RelativeToolTip": "Controllers\\CardController.cs",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAAwNYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAQwNcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T07:43:34.361Z",
               "EditorCaption": ""

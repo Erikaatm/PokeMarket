@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokeMarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e2c4849c4754b58ec6093e0aedfbfe28dcbd9d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d71c75a4155eed94d8f18d9462bcf1926293365")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokeMarket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokeMarket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
