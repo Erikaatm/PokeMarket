@@ -1,0 +1,15 @@
+<app-menu></app-menu>
+
+<div class="resend-container">
+    <form (ngSubmit)="onSubmit()" #resendConfirmEmail="ngForm">
+        <div>
+            <label for="email">Introduzca su email:</label>
+            <input type="email" name="email" id="email" [(ngModel)]="email" required>
+        </div>
+
+        <button type="submit">Reenviar email de confirmación</button>
+
+        <div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>
+        <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+    </form>
+</div>

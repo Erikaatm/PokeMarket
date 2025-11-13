@@ -1,0 +1,43 @@
+<div class="edit-container">
+    <h2>Editar perfil</h2>
+
+    <form (ngSubmit)="onSubmit()" #editForm="ngForm">
+        <!-- currentEmail -->
+        <div class="form-group">
+            <label for="currentEmail">Email actual:</label>
+            <input type="text" id="currentEmail" name="currentEmail" [(ngModel)]="currentEmail" (click)="onInputChange()" required />
+        </div>
+
+        <!-- newEmail -->
+        <div class="form-group">
+            <label for="newEmail">Nuevo email:</label>
+            <input type="text" id="newEmail" name="newEmail" [(ngModel)]="newEmail" (click)="onInputChange()" required/>
+        </div>
+
+        <!-- confirmNewEmail -->
+        <div class="form-group">
+            <label for="confirmNewEmail">Confirmar email:</label>
+            <input type="text" id="confirmNewEmail" name="confirmNewEmail" [(ngModel)]="confirmNewEmail" (click)="onInputChange()" required/>
+        </div>
+
+        <!-- currentPassword -->
+        <div class="form-group">
+            <label for="currentPassword">contraseña actual:</label>
+            <input type="password" id="currentPassword" name="currentPassword" [(ngModel)]="currentPassword" (click)="onInputChange()" required/>
+        </div>
+
+
+
+        <!-- Botón -->
+        <button type="submit">Guardar cambios</button>
+
+        <!-- Mensajes -->
+        <div *ngIf="successMessage" class="success-message">
+            {{ successMessage }}
+        </div>
+
+        <div *ngIf="errorMessage" class="error-message">
+            {{ errorMessage }}
+        </div>
+    </form>
+</div>

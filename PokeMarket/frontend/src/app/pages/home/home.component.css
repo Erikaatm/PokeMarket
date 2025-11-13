@@ -1,0 +1,78 @@
+/* Contenedor general */
+
+.row {
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 1300px;
+}
+
+
+/* Tarjetas */
+
+.card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #ffcc00;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+    border-color: #3b4cca;
+}
+
+
+/* Imagen */
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #3b4cca;
+}
+
+
+/* Título */
+
+.card-title {
+    font-size: 1.4rem;
+    color: #3b4cca;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Texto descriptivo */
+
+.card-text {
+    font-size: 0.95rem;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+
+/* Botón */
+
+.card-body button {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ffcc00;
+    border: none;
+    color: #232323;
+    border-radius: 8px;
+    box-shadow: 0 2px 0 #3b4cca, 0 6px 24px #e7b54455;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.1s;
+}
+
+.card-body button:hover {
+    background-color: #e33636;
+    color: white;
+    transform: scale(1.05);
+}

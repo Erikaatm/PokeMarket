@@ -1,0 +1,95 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body.fondo-todas-cartas {
+    background-image: url('assets/images/fondo-todas-cartas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-home {
+    background-image: url('assets/images/fondo-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-prismatic-evolutions {
+    background-image: url('assets/images/fondo-prismatic-evolutions.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-journey-together {
+    background-image: url('assets/images/fondo-journey-together.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-surging-sparks {
+    background-image: url('assets/images/fondo-surging-sparks.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-151 {
+    background-image: url('assets/images/fondo151.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.cart-body {
+    height: 1000%;
+    background: radial-gradient(circle at center, rgb(251, 188, 244), rgb(108, 203, 240)100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+body.fondo-perfil {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.fondo-perfil2 {
+    background-color: rgb(255, 255, 170);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.fondo-favoritos {
+    background-image: url('assets/images/fondo-animado-poke.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

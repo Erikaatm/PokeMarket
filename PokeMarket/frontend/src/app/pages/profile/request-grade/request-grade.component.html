@@ -1,0 +1,38 @@
+<div class="request-grade-container">
+    <h2>Solicitar gradeo</h2>
+
+    <!-- Mensajes -->
+    <div *ngIf="successMessage" class="success-message">
+        {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+    </div>
+
+    <!-- Contenedor para las cartas -->
+    <div class="cartas-contenedor container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+            <div class="col" *ngFor="let card of cards">
+                <div class="card cartas shadow-sm">
+                    <img class="img-carta card-img-top" [src]="card.imageUrl" [alt]="card.pokemonName">
+                    <div class="carta-body card-body text-center">
+                        <h5 class="nombre-pokemon card-title">{{ card.pokemonName }}</h5>
+                        <p class="rareza-carta card-text">{{ card.rarity }}</p>
+                        <p class="precio-carta card-text">Precio: {{ card.price }}€</p>
+                    </div>
+                    <button type="submit" class="grade-button" (click)="requestGrading(card.id)">
+                        Solicitar gradeo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Paginación -->
+    <div class="pagination">
+        <button (click)="prevPage()" [disabled]="currentPage === 1">Anterior</button>
+        <span>Página {{ currentPage }} de {{ pagedResult.totalPages }}</span>
+        <button (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages">Siguiente</button>
+    </div>
+</div>

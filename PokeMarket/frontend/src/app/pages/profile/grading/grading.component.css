@@ -1,0 +1,51 @@
+.grading-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    button {
+        width: 250px;
+        font-size: 20px;
+        color: black;
+        background: none;
+        border: none;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-bottom: 2px solid black;
+        transition: border-color 0.2s;
+    }
+    .active {
+        border-bottom: 2px solid #ffcb05;
+        color: #ffcb05;
+    }
+}
+
+.grading-content {
+    min-height: 200px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.grading-container {
+    margin-top: 50px;
+    margin-top: 0px;
+    height: auto;
+}
+
+h2 {
+    color: #ffcb05;
+    text-shadow: 2px 2px #3b4cca;
+    margin-right: 950px;
+    font-size: 30px;
+}

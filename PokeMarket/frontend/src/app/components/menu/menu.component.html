@@ -1,0 +1,41 @@
+<div class="contenedor-menu">
+    <div class="contenedor-navegacion">
+        <!-- Ponemos la imagen de nuestro logo -->
+        <img src="assets/images/pokemarket-logo.PNG" alt="Logo" (click)="goToMenu('/home')" class="logo">
+
+
+        <!-- Menú de navegación -->
+        <nav class="menu-navegacion">
+            <ul>
+                <li> Colecciones
+                    <ul class="submenu">
+                        <li (click)="goToMenu('/journey-together')">Journey Together</li>
+                        <li (click)="goToMenu('/prismatic-evolutions')">Prismatic Evolutions</li>
+                        <li (click)="goToMenu('/surging-sparks')">Surging Sparks</li>
+                        <li (click)="goToMenu('/151')">151</li>
+                    </ul>
+
+                </li>
+                <li (click)="goToMenu('/allCards')">Todas las cartas</li>
+                <li (click)="goToMenu('/how-to-play')">Como jugar</li>
+                <li (click)="goToMenu('/cart')">Carrito</li>
+
+
+                <!-- Si el usuario no está loggeado -->
+                <li *ngIf="!authService.isLogged">
+                    <a routerLink="/login">Iniciar sesión</a>
+                </li>
+
+                <!-- Si el usuario está loggeado -->
+                <li *ngIf="authService.isLogged">
+                    <a [routerLink]="['/profile', user?.id]">
+                        {{ user?.username }}
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+</div>

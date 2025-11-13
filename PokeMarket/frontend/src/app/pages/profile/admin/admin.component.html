@@ -1,0 +1,62 @@
+<div class="admin-container">
+
+    <h3 class="titulo-admin">Panel de administración</h3>
+
+    <!-- Filtros -->
+    <div class="admin-filtros d-flex flex-wrap gap-2 justify-content-center mb-4">
+        <input type="text" [(ngModel)]="username" (input)="onFilterOrOrderChange()" placeholder="Filtrar por nombre" class="form-control w-auto">
+        <input type="text" [(ngModel)]="email" (input)="onFilterOrOrderChange()" placeholder="Filtrar por email" class="form-control w-auto">
+        <input type="text" [(ngModel)]="role" (input)="onFilterOrOrderChange()" placeholder="Filtrar por rol" class="form-control w-auto">
+
+        <select [(ngModel)]="orderBy" (change)="onFilterOrOrderChange()" class="form-select w-auto">
+      <option value="fecha-desc">Más recientes</option>
+      <option value="fecha-asc">Más antiguos</option>
+      <option value="nombre-asc">Nombre A-Z</option>
+      <option value="nombre-desc">Nombre Z-A</option>
+      <option value="rol-asc">Rol A-Z</option>
+      <option value="rol-desc">Rol Z-A</option>
+    </select>
+    </div>
+
+    <!-- Mensaje de error si hay -->
+    <div *ngIf="errorMessage" class="text-danger text-center mb-3">
+        {{ errorMessage }}
+    </div>
+
+    <!-- Tabla de usuarios -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center align-middle bg-white">
+            <thead class="table-light">
+                <tr>
+                    <th>Usuario</th>
+                    <th>Email</th>
+                    <th>Rol</th>
+                    <th>Creado</th>
+                    <th>Última actualización</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.emailAddress }}</td>
+                    <td>{{ user.role }}</td>
+                    <td>{{ user.createdAt | date: 'short' }}</td>
+                    <td>{{ user.lastUpdatedAt | date: 'short' }}</td>
+                    <td>
+                        <button (click)="deleteUser(user.id)" class="btn btn-danger btn-sm">
+                            ✖
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Paginación -->
+    <div class="pagination d-flex justify-content-center align-items-center gap-3 mt-3" *ngIf="pagedResult.totalPages > 1">
+        <button class="btn btn-secondary" (click)="prevPage()" [disabled]="currentPage === 1">Anterior</button>
+        <span>Página {{ currentPage }} de {{ pagedResult.totalPages || 1 }}</span>
+        <button class="btn btn-secondary" (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages">Siguiente</button>
+    </div>
+</div>

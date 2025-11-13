@@ -1,0 +1,33 @@
+<!-- Mostramos mensaje de error -->
+<div *ngIf="errorMessage" class="error-msg">{{ errorMessage }}</div>
+
+<!-- Contenedor grid -->
+<div class="perfil-grid" *ngIf="user">
+
+    <!-- Info Personal -->
+    <div class="tarjeta-perfil">
+        <h3>Información personal</h3>
+        <div><strong>Usuario:</strong> {{ user.username }}</div>
+        <div><strong>Nombre:</strong> {{ user.firstName }}
+        </div>
+        <div><strong>Apellidos:</strong> {{ user.lastName1 }}
+            <span *ngIf="user.lastName2"> {{ user.lastName2 }} </span>
+        </div>
+        <div *ngIf="user.phoneNumber"><strong>Teléfono:</strong> {{ user.phoneNumber }}</div>
+        <div *ngIf="user.address"><strong>Dirección:</strong> {{ user.address }}</div>
+    </div>
+
+    <!-- Email -->
+    <div class="tarjeta-perfil">
+        <h3>Dirección correo electrónico</h3>
+        <div><strong>Email:</strong> {{ user.emailAddress }}</div>
+    </div>
+
+    <!-- Más info -->
+    <div class="tarjeta-perfil">
+        <h3>Más información</h3>
+        <div><strong>Miembro desde:</strong> {{ user.createdAt | date:'dd/MM/yyyy' }}</div>
+        <div><strong>Última actualización:</strong> {{ user.lastUpdatedAt | date:'dd/MM/yyyy' }}</div>
+    </div>
+
+</div>

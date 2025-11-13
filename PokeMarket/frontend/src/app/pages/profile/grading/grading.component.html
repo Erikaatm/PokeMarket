@@ -1,0 +1,12 @@
+<div class="grading-container">
+    <h2>Gradeos</h2>
+    <div class="grading-tabs">
+
+        <button *ngIf="user?.role === 'admin'" [class.active]="selectedTab === 'requested'" (click)="selectedTab = 'requested'">Gradeos solicitados</button>
+        <button *ngIf="user?.role === 'admin' || user?.role === 'grader' " [class.active]="selectedTab === 'graded'" (click)="selectedTab = 'graded'">Cartas gradeadas</button>
+    </div>
+    <div class="grading-content">
+        <app-requested *ngIf="selectedTab === 'requested'"></app-requested>
+        <app-graded *ngIf="selectedTab === 'graded'"></app-graded>
+    </div>
+</div>

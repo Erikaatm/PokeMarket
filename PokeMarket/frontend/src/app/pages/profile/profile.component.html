@@ -1,0 +1,43 @@
+<app-menu></app-menu>
+
+<div class="menu-simple">
+    <button type="button" routerLink="/home" class="icono-home">
+        <i class="bi bi-house"></i>
+    </button>
+    <i class="bi bi-chevron-right"></i>
+    <span class="menu-principal">
+        Menú principal
+    </span>
+</div>
+<div class="perfil-contenedor pokemon-fondo">
+    <h1 class="titulo-perfil">¡Hola, Entrenador!</h1>
+    <p class="subtexto-perfil">Gestiona todo desde tu centro de mando:</p>
+
+    <div class="opciones-perfil">
+        <!-- MIS PEDIDOS
+        <div class="opcion-perfil" routerLink="/mis-pedidos">
+            <img src="assets/images/logo-pedidos.PNG" alt="Mis pedidos">
+            <span>Mis pedidos</span>
+        </div> -->
+
+        <!-- FAVORITOS -->
+        <div class="opcion-perfil" routerLink="/favoritos">
+            <img src="assets/images/favorites.PNG" alt="Mis favoritos">
+            <span>Cartas favoritas</span>
+        </div>
+
+        <!-- PERFIL -->
+        <div class="opcion-perfil" routerLink="/my-perfil">
+            <img src="assets/images/mi-perfil.PNG" alt="Mi perfil">
+            <span>Mi perfil</span>
+        </div>
+
+        <!-- CONFIG -->
+        <div class="opcion-perfil" [routerLink]="['/ajustes', user?.id]">
+            <img src="assets/images/icono-ajustes.PNG" alt="Ajustes">
+            <span>Ajustes</span>
+        </div>
+
+    </div>
+    <button type="submit" (click)="logout()">Cerrar sesión</button>
+</div>

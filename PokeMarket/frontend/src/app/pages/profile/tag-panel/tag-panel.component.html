@@ -1,0 +1,55 @@
+<div class="tag-container">
+
+    <h3 class="titulo-admin">Gestión de Tags</h3>
+
+    <!-- Crear nuevo tag -->
+    <div class="tag-crear mb-4 d-flex flex-wrap gap-2 justify-content-center">
+        <input type="text" class="form-control w-auto" [(ngModel)]="tagName" placeholder="Nombre del nuevo tag" />
+        <button type="submit" class="btn btn-success" (click)="createTag()">Crear</button>
+    </div>
+
+    <!-- Filtros -->
+    <div class="tag-filtros mb-4 d-flex flex-wrap gap-2 justify-content-center">
+        <input type="text" class="form-control w-auto" [(ngModel)]="searchTag" (input)="onFilterChange()" placeholder="Buscar tag..." />
+        <select class="form-select w-auto" [(ngModel)]="orderBy" (change)="onFilterChange()">
+      <option value="nombre-asc">Nombre A-Z</option>
+      <option value="nombre-desc">Nombre Z-A</option>
+    </select>
+    </div>
+
+    <!-- Mensaje de error -->
+    <div *ngIf="errorMessage" class="text-danger text-center mb-3">
+        {{ errorMessage }}
+    </div>
+
+    <!-- Lista de tags -->
+    <div *ngIf="tags.length > 0" class="table-responsive">
+        <table class="table table-bordered table-hover text-center align-middle bg-white">
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let tag of tags">
+                    <td>{{ tag.id }}</td>
+                    <td>{{ tag.name }}</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" (click)="deleteTag(tag.id)">
+              ✖
+            </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Paginación -->
+    <div class="pagination d-flex justify-content-center align-items-center gap-3 mt-3" *ngIf="pagedResult.totalPages > 1">
+        <button class="btn btn-secondary" (click)="prevPage()" [disabled]="currentPage === 1">Anterior</button>
+        <span>Página {{ currentPage }} de {{ pagedResult.totalPages }}</span>
+        <button class="btn btn-secondary" (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages">Siguiente</button>
+    </div>
+</div>

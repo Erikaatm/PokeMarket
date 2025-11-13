@@ -1,0 +1,101 @@
+<!-- Contenedor del menú -->
+<app-menu></app-menu>
+
+<div class="container-fluid">
+
+    <!-- Filtros de texto -->
+    <div class="my-3 d-flex justify-content-center gap-2 flex-wrap">
+        <input type="text" [(ngModel)]="pokemonName" (input)="onFilterOrOrderChange()" placeholder="Filtrar por nombre..." class="form-control w-auto" />
+        <input type="text" [(ngModel)]="collection" (input)="onFilterOrOrderChange()" placeholder="Filtrar por colección..." class="form-control w-auto" />
+        <input type="text" [(ngModel)]="pokemonType" (input)="onFilterOrOrderChange()" placeholder="Filtrar por tipo..." class="form-control w-auto" />
+        <input type="text" [(ngModel)]="tagName" (input)="onFilterOrOrderChange()" placeholder="Filtrar por tag..." class="form-control w-auto" />
+    </div>
+
+    <!-- Contenedor para los filtros y el orden-->
+    <div class="contenedor-filtro-orden my-3 d-flex justify-content-center gap-3">
+        <select [(ngModel)]="selectedRarity" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+            <option value="todos">Todos</option>
+            <option value="comun">Común</option>
+            <option value="infrecuente">Infrecuente</option>
+            <option value="rara">Rara</option>
+            <option value="rara doble">Rara doble</option>
+            <option value="rara ilustracion">Rara ilustración</option>
+            <option value="rara ilustracion especial">Rara ilustración especial</option>
+            <option value="rara hiper">Rara Híper</option>
+        </select>
+
+        <select [(ngModel)]="selectedOrder" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+            <option value="fecha-desc">Recientes</option>
+            <option value="fecha-asc">Más antiguos</option>
+            <option value="nombre">Alfabéticamente</option>
+            <option value="tipo">Tipos</option>
+            <option value="rareza">Rareza</option>
+        </select>
+    </div>
+
+    <!-- Contenedor para las cartas -->
+    <div class="cartas-contenedor container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col" *ngFor="let card of cards">
+                <div class="card cartas shadow-sm">
+                    <!-- <div class="img-wrapper" (mousemove)="onCardHover($event, i)" (mouseleave)="onCardLeave(i)"> -->
+                    <img class="img-carta card-img-top" [src]="card.imageUrl" [alt]="card.pokemonName">
+                    <div class="carta-body card-body text-center">
+                        <h5 class="nombre-pokemon card-title">{{ card.pokemonName }}</h5>
+                        <p class="rareza-carta card-text">{{ card.rarity }}</p>
+                        <p class="precio-carta card-text">Precio: {{ card.price }}€</p>
+                        <p *ngIf="card.grade" class="grade-carta card-text">PSA: {{ card.grade }}</p>
+
+                        <!-- Botón para agregar al carrito -->
+                        <div class="action-buttons">
+                            <button (click)="toggleFavorite(card.id)" class="icono-btn favorite">
+                                    <i class="fa-heart" [ngClass]="isFavorite(card.id) ? 'fa-solid' : 'fa-regular'"></i>
+                                </button>
+                            <button (click)="addToCart(card)" class="icono-btn cart">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Division de error -->
+    <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+    </div>
+
+    <!-- Controles de paginación -->
+    <div class="pagination my-3 d-flex justify-content-center gap-3 align-items-center" *ngIf="pagedResult.totalPages > 1">
+        <button (click)="prevPage()" [disabled]="currentPage === 1" class="btn btn-secondary">Anterior</button>
+        <span class="fs-6 fw-bold">Página {{ currentPage }} de {{ pagedResult.totalPages || 1 }}</span>
+        <button (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages" class="btn btn-secondary">Siguiente</button>
+
+    </div>
+
+
+</div>
+
+<!-- Mensaje emergente -->
+<div class="popup-carrito" *ngIf="showCartMessage">
+    <!-- Botón de cerrar -->
+    <button class="popup-cerrar" (click)="showCartMessage = false">✖</button>
+
+    <p class="popup-titulo">Carta añadida al carrito correctamente</p>
+
+    <div class="popup-contenido">
+        <img [src]="selectedCard?.imageUrl" [alt]="selectedCard?.pokemonName" class="popup-img">
+
+        <div>
+            <p>{{ selectedCard?.pokemonName }}</p>
+            <p>Precio: {{ selectedCard?.price }}€</p>
+        </div>
+    </div>
+
+    <div class="popup-botones">
+        <button class="btn-seguir" (click)="showCartMessage = false">Seguir comprando</button>
+        <a routerLink="/cart" class="btn-ir-carrito">Ir al carrito</a>
+    </div>
+
+</div>

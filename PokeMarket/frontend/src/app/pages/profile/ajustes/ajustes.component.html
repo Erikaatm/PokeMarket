@@ -1,0 +1,31 @@
+<app-menu></app-menu>
+
+<div class="ajustes-container">
+    <div class="menu-simple">
+        <button type="button" routerLink="/home" class="icono-home">
+            <i class="bi bi-house"></i>
+        </button>
+        <i class="bi bi-chevron-right" style="font-size: 1.4rem; font: bold;"></i>
+
+        <button *ngIf="user" [routerLink]="['/profile', user.id]" class="menu-principal">
+            Menú principal
+        </button>
+
+        <i class="bi bi-chevron-right" style="font-size: 1.4rem; font: bold;"></i>
+        <span class="ajustes">
+            Ajustes
+        </span>
+    </div>
+    <h2>Ajustes</h2>
+    <div class="ajustes-tabs">
+
+        <button [class.active]="selectedTab === 'editarPerfil'" (click)="selectedTab = 'editarPerfil'">Editar perfil</button>
+        <button [class.active]="selectedTab === 'editarEmail'" (click)="selectedTab = 'editarEmail'">Editar email</button>
+        <button [class.active]="selectedTab === 'editarContra'" (click)="selectedTab = 'editarContra'">Editar contraseña</button>
+    </div>
+    <div class="ajustes-content">
+        <app-edit-profile *ngIf="selectedTab === 'editarPerfil'"></app-edit-profile>
+        <app-edit-email *ngIf="selectedTab === 'editarEmail'"></app-edit-email>
+        <app-edit-password *ngIf="selectedTab === 'editarContra'"></app-edit-password>
+    </div>
+</div>

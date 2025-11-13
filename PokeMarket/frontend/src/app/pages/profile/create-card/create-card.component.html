@@ -1,0 +1,61 @@
+<div class="createCard-container">
+    <h2>Crear nueva carta</h2>
+    <form (ngSubmit)="onSubmit()" #createCardForm="ngForm">
+
+        <!-- Nombre -->
+        <div class="form-group">
+            <label for="pokemonName">Nombre del Pokemon:</label>
+            <input type="pokemonName" id="pokemonName" name="pokemonName" [(ngModel)]="pokemonName" (input)="onInputChange()" required>
+        </div>
+
+        <!-- Tipo -->
+        <div class="form-group">
+            <label for="pokemonType">Tipo:</label>
+            <input type="text" id="pokemonType" name="pokemonType" [(ngModel)]="pokemonType" (input)="onInputChange()" required />
+        </div>
+
+        <!-- Rareza -->
+        <div class="form-group">
+            <label for="rarity">Rareza:</label>
+            <input type="text" id="rarity" name="rarity" [(ngModel)]="rarity" (input)="onInputChange()" required />
+        </div>
+
+        <!-- imagen -->
+        <div class="form-group mb-3">
+            <label class="form-label">Imagen de la carta</label>
+
+            <!-- Input personalizado -->
+            <input type="file" class="form-control archivo-input" (change)="onFileSelected($event)" />
+
+            <!-- Botón de subir -->
+            <button type="button" class="btn-subir" (click)="uploadImg()">Subir Imagen</button>
+
+            <!-- Preview -->
+            <div *ngIf="previewUrl" class="preview-imagen mt-3">
+                <img [src]="previewUrl" alt="Vista previa" />
+            </div>
+        </div>
+
+        <!-- Colección -->
+        <div class="form-group">
+            <label for="collection">Colección:</label>
+            <input type="text" id="collection" name="collection" [(ngModel)]="collection" (input)="onInputChange()" required />
+        </div>
+
+        <!-- Precio -->
+        <div class="form-group">
+            <label for="price">Precio (€):</label>
+            <input type="number" id="price" name="price" [(ngModel)]="price" required min="0" step="0.01" />
+        </div>
+
+        <button type="submit">Crear carta</button>
+    </form>
+
+    <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+    </div>
+    <div *ngIf="successMessage" class="success-message">
+        {{ successMessage }}
+    </div>
+
+</div>

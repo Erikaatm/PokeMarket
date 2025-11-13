@@ -1,0 +1,80 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    text-align: center;
+}
+
+
+/* Contenedor del menú */
+
+.contenedor-menu {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.contenedor-navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+
+/* Menú de navegación */
+
+.menu-navegacion {
+    position: absolute;
+    right: 2%;
+    gap: 25px;
+}
+
+.menu-navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-navegacion li {
+    position: relative;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.menu-navegacion li:hover {
+    color: #ffcc00;
+}
+
+
+/* Submenú */
+
+.menu-navegacion .submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    border: 1px solid #ffcc00;
+    z-index: 1000;
+}
+
+.menu-navegacion li:hover .submenu {
+    display: flex;
+}
+
+.submenu li {
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+.submenu li:hover {
+    color: #ffcc00;
+}

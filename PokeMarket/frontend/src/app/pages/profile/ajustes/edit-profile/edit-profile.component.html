@@ -1,0 +1,64 @@
+<div class="edit-container">
+    <h2>Editar perfil</h2>
+
+    <form (ngSubmit)="onSubmit()" #editForm="ngForm">
+        <!-- Username -->
+        <div class="form-group">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" [(ngModel)]="username" maxlength="30" (click)="onInputChange()" required />
+        </div>
+
+        <!-- First Name -->
+        <div class="form-group">
+            <label for="firstName">Nombre:</label>
+            <input type="text" id="firstName" name="firstName" [(ngModel)]="firstName" maxlength="30" (click)="onInputChange()" />
+        </div>
+
+        <!-- Last Name 1 -->
+        <div class="form-group">
+            <label for="lastName1">Primer apellido:</label>
+            <input type="text" id="lastName1" name="lastName1" [(ngModel)]="lastName1" maxlength="30" (click)="onInputChange()" />
+        </div>
+
+        <!-- Last Name 2 -->
+        <div class="form-group">
+            <label for="lastName2">Segundo apellido:</label>
+            <input type="text" id="lastName2" name="lastName2" [(ngModel)]="lastName2" maxlength="30" (click)="onInputChange()" />
+        </div>
+
+        <!-- Phone -->
+        <div class="form-group">
+            <label for="phoneNumber">Teléfono:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" [(ngModel)]="phoneNumber" (click)="onInputChange()" />
+        </div>
+
+        <!-- Address -->
+        <div class="form-group">
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" [(ngModel)]="address" (click)="onInputChange()" />
+        </div>
+
+        <div class="form-group">
+            <label for="confirmEmail">Confirmar email:</label>
+            <input type="email" id="confirmEmail" name="confirmEmail" [(ngModel)]="confirmEmail" (click)="onInputChange()" required />
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Confirmar contraseña:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" [(ngModel)]="confirmPassword" (click)="onInputChange()" required />
+        </div>
+
+
+        <!-- Botón -->
+        <button type="submit">Guardar cambios</button>
+
+        <!-- Mensajes -->
+        <div *ngIf="successMessage" class="success-message">
+            {{ successMessage }}
+        </div>
+
+        <div *ngIf="errorMessage" class="error-message">
+            {{ errorMessage }}
+        </div>
+    </form>
+</div>

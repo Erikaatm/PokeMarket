@@ -1,0 +1,165 @@
+.error-message {
+    white-space: pre-line;
+}
+
+
+/* Contenedor principal del registro */
+
+.login-container {
+    width: 90%;
+    max-width: 480px;
+    margin: 40px auto;
+    background-color: rgb(203, 223, 236);
+    padding: 28px 20px 24px 20px;
+    border-radius: 18px;
+    border-radius: 18px;
+    border: 3px solid #FFCC00;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+
+/* Titulo */
+
+.login-container h2 {
+    color: #ffcb05;
+    text-shadow: 2px 2px #3b4cca;
+    font-size: 35px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+
+/* Campos del formulario */
+
+.form-group {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+
+/* Etiquetas de los inputs */
+
+.form-group label {
+    color: #003366;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+
+/* Inputs */
+
+.form-group input {
+    width: 100%;
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 2px solid #FFCC00;
+    background: #fffbe9;
+    font-size: 15px;
+    color: #232323;
+    outline: none;
+    margin-top: 4px;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus {
+    border: 2px solid #e33636;
+    box-shadow: 0 0 0 2px #ffcc005a;
+}
+
+
+/* Botón principal */
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #FFCC00;
+    color: #232323;
+    border: none;
+    padding: 10px 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 0 #3b4cca, 0 6px 24px #e7b54455;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+    letter-spacing: 1px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e33636;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+/* Botón de iniciar sesión debajo del mensaje de éxito */
+
+.success-message button {
+    background: #003366;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.success-message button:hover {
+    background: #e33636;
+}
+
+
+/* Mensajes */
+
+.success-message {
+    color: #007D21;
+    margin-top: 14px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.error-message {
+    color: #e33636;
+    margin-top: 10px;
+    font-size: 15px;
+    white-space: pre-line;
+    min-height: 22px;
+}
+
+
+/* Link abajo para iniciar sesión */
+
+.login-container a {
+    color: #003366;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: inherit;
+    transition: color 0.2s;
+}
+
+.login-container a:hover {
+    color: #e33636;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .login-container {
+        padding: 10px 2vw;
+        max-width: 99vw;
+    }
+    .form-group input {
+        font-size: 0.87rem;
+    }
+}

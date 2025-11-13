@@ -1,0 +1,62 @@
+<div class="graded-container">
+    <h2>Cartas gradeadas</h2>
+
+    <!-- Filtros -->
+    <div class="filters mb-4 d-flex flex-wrap gap-2 justify-content-center">
+        <input type="text" [(ngModel)]="pokemonName" placeholder="Nombre del Pokémon" (input)="onFilterOrOrderChange()" />
+        <input type="text" [(ngModel)]="collection" placeholder="Colección" (input)="onFilterOrOrderChange()" />
+        <input type="text" [(ngModel)]="pokemonType" placeholder="Tipo" (input)="onFilterOrOrderChange()" />
+        <input type="text" [(ngModel)]="gradedBy" placeholder="Gradeado por..." (input)="onFilterOrOrderChange()" />
+
+        <select [(ngModel)]="rarity" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+      <option value="todos">Todos</option>
+      <option value="comun">Común</option>
+      <option value="infrecuente">Infrecuente</option>
+      <option value="rara">Rara</option>
+      <option value="rara doble">Rara doble</option>
+      <option value="rara ilustracion">Rara ilustración</option>
+      <option value="rara ilustracion especial">Rara ilustración especial</option>
+      <option value="rara hiper">Rara Híper</option>
+    </select>
+
+        <select [(ngModel)]="selectedOrder" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+      <option value="fecha-desc">Recientes</option>
+      <option value="fecha-asc">Más antiguos</option>
+      <option value="nombre">Alfabéticamente</option>
+      <option value="tipo">Tipos</option>
+      <option value="rareza">Rareza</option>
+    </select>
+    </div>
+
+    <!-- Cartas gradeadas -->
+    <div class="cartas-contenedor container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-4">
+            <div class="col" *ngFor="let grading of gradings">
+                <div class="card cartas shadow-sm">
+                    <img class="img-carta card-img-top" [src]="grading.imageUrl" [alt]="grading.pokemonName">
+                    <div class="carta-body card-body text-center">
+                        <h5 class="nombre-pokemon card-title">{{ grading.pokemonName }}</h5>
+                        <p class="rareza-carta card-text">Rareza: {{ grading.rarity }}</p>
+                        <p class="card-text">Propietario: {{ grading.createdByUsername }}</p>
+                        <p class="card-text">Gradeador: {{ grading.gradedByUsername }}</p>
+                        <p class="card-text fw-bold">Nota: {{ grading.grade }}</p>
+                        <p class="card-text">Estado: {{ grading.gradeStatus }}</p>
+                        <p class="card-text">Fecha: {{ grading.gradedAt | date: 'dd/MM/yyyy' }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controles de paginación -->
+    <div class="pagination my-3 d-flex justify-content-center gap-3 align-items-center" *ngIf="pagedResult.totalPages > 1">
+        <button (click)="prevPage()" [disabled]="currentPage === 1" class="btn btn-secondary">Anterior</button>
+        <span class="fs-6 fw-bold">Página {{ currentPage }} de {{ pagedResult.totalPages || 1 }}</span>
+        <button (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages" class="btn btn-secondary">Siguiente</button>
+    </div>
+
+    <!-- Mensaje de error -->
+    <div *ngIf="errorMessage" class="error-message text-center mt-3">
+        {{ errorMessage }}
+    </div>
+</div>

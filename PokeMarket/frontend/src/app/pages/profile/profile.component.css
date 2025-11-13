@@ -1,0 +1,146 @@
+.pokemon-fondo {
+    background-color: #ff0505;
+    padding: 40px;
+    text-align: center;
+    height: 300px;
+}
+
+.titulo-perfil {
+    font-family: "Press Start 2P", cursive;
+    color: #ffcb05;
+    text-shadow: 2px 2px #3b4cca;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.opciones-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.opcion-perfil {
+    background: white;
+    border: 3px solid #3b4cca;
+    border-radius: 16px;
+    padding: 26px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    /* Para que el texto no se desborde */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.opcion-perfil:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(59, 76, 202, 0.4);
+}
+
+.opcion-perfil img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.opcion-perfil span {
+    font-size: 0.85rem;
+    color: #3b4cca;
+    font-weight: bold;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.menu-simple {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: red;
+    color: black;
+    box-sizing: border-box;
+}
+
+.icono-home {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu-principal {
+    font-family: "Times New Roman", Times, serif;
+    border: none;
+    background: none;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.mi-perfil {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+.bi-chevron-right {
+    font-size: 18px;
+}
+
+
+/* boton cerrar sesion */
+
+button[type="submit"] {
+    width: 300px;
+    background-color: #FFCC00;
+    color: #232323;
+    border: none;
+    padding: 10px 5px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 0 #3b4cca, 0 6px 24px #e7b54455;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+    letter-spacing: 1px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e33636;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+/* Responsive para pantallas pequeñas */
+
+@media (max-width: 500px) {
+    .menu-simple {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    .menu-principal,
+    .mi-perfil {
+        font-size: 16px;
+    }
+    .bi-chevron-right {
+        display: none;
+    }
+}

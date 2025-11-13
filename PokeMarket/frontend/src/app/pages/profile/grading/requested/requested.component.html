@@ -1,0 +1,69 @@
+<div class="requested-container">
+    <h2>Gradeos solicitados</h2>
+
+    <!-- Filtros -->
+    <div class="filters mb-4 d-flex flex-wrap gap-2 justify-content-center">
+        <input type="text" [(ngModel)]="pokemonName" placeholder="Nombre del Pokémon" (input)="onFilterOrOrderChange()" />
+        <input type="text" [(ngModel)]="collection" placeholder="Colección" (input)="onFilterOrOrderChange()" />
+        <input type="text" [(ngModel)]="pokemonType" placeholder="Tipo" (input)="onFilterOrOrderChange()" />
+
+        <select [(ngModel)]="rarity" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+      <option value="todos">Todos</option>
+      <option value="comun">Común</option>
+      <option value="infrecuente">Infrecuente</option>
+      <option value="rara">Rara</option>
+      <option value="rara doble">Rara doble</option>
+      <option value="rara ilustracion">Rara ilustración</option>
+      <option value="rara ilustracion especial">Rara ilustración especial</option>
+      <option value="rara hiper">Rara Híper</option>
+    </select>
+
+        <select [(ngModel)]="selectedOrder" (change)="onFilterOrOrderChange()" class="dropdown-filtro form-select w-auto">
+      <option value="fecha-desc">Recientes</option>
+      <option value="fecha-asc">Más antiguos</option>
+      <option value="nombre">Alfabéticamente</option>
+      <option value="tipo">Tipos</option>
+      <option value="rareza">Rareza</option>
+    </select>
+    </div>
+
+    <!-- Cartas solicitadas -->
+    <div class="cartas-contenedor container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-4">
+            <div class="col" *ngFor="let card of cards">
+                <div class="card cartas shadow-sm">
+                    <img class="img-carta card-img-top" [src]="card.imageUrl" [alt]="card.pokemonName">
+                    <div class="carta-body card-body text-center">
+                        <h5 class="nombre-pokemon card-title">{{ card.pokemonName }}</h5>
+                        <p class="rareza-carta card-text">Rareza: {{ card.rarity }}</p>
+                        <p class="card-text">Propietario: {{ card.username }}</p>
+
+                        <!-- Input para nota -->
+                        <div class="form-group mb-2">
+                            <label for="grade" class="fw-bold d-block">Nota:</label>
+                            <input type="number" [(ngModel)]="gradeToSubmit[card.id]" min="1" max="10" class="form-control mx-auto" style="width: 80px;" />
+                        </div>
+
+                        <!-- Botones de acción -->
+                        <div class="actions d-flex gap-2 justify-content-center mt-2">
+                            <button class="btn btn-success w-100" (click)="gradeCard(card.id)">Aceptar</button>
+                            <button class="btn btn-reject w-100" (click)="rejectGrading(card.id)">Rechazar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controles de paginación -->
+    <div class="pagination my-3 d-flex justify-content-center gap-3 align-items-center">
+        <button (click)="prevPage()" [disabled]="currentPage === 1" class="btn btn-secondary">Anterior</button>
+        <span class="fs-6 fw-bold">Página {{ currentPage }} de {{ pagedResult.totalPages || 1 }}</span>
+        <button (click)="nextPage()" [disabled]="currentPage === pagedResult.totalPages" class="btn btn-secondary">Siguiente</button>
+    </div>
+
+    <!-- Mensaje de error -->
+    <div *ngIf="errorMessage" class="error-message text-center mt-3">
+        {{ errorMessage }}
+    </div>
+</div>
